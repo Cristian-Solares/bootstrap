@@ -1,0 +1,20 @@
+/*#id .clase opjeto*/
+
+#main  .carousel-inner  img{
+    max-height: 70vh !important;
+    /*arregla lo estirado de la imagen*/
+    object-fit: cover;
+}
+#blog{
+    position: relative;
+}
+/*esto hace que se ponga en sima y que ocupe todo su ancho*/
+#blog .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+#blog img{
+    
+    max-height: 30vh ;
+}
